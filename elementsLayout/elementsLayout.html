@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Elements Layout</title>
+    <style>
+      body{
+        display: flex;
+        flex-direction: row;
+      }
+      .sidebar{
+        padding: 10px;
+        background-color: grey;
+      }
+      .content{
+        background-color: lightblue;
+        display: flex;
+        width: 100%;
+      }
+      .centerDiv{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gold;
+        border-style: solid;
+        border-width: 2px;
+        border-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#school">SCHOOL</a></li>
+        <li><a href="#company">COMPANY</a></li>
+        <li><a href="#shops">SHOPS</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="centerDiv">
+          <p>A center div</p>
+      </div>
+    </div>
+  </body>
+  <footer>
+
+  </footer>
+</html>
